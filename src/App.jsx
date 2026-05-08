@@ -29,7 +29,7 @@ function LogoWordmark({ light = false }) {
           Super<span style={{ color: '#0284c7' }}>Sparkles</span>
         </div>
         <div style={{ fontSize: '0.6rem', letterSpacing: '2.5px', color: light ? 'rgba(255,255,255,0.6)' : '#94a3b8', fontWeight: 500, textTransform: 'uppercase' }}>
-          Professional Cleaning
+          Window Cleaning
         </div>
       </div>
     </a>
@@ -139,12 +139,12 @@ function Hero() {
         </div>
 
         <h1 style={{ fontSize: 'clamp(2.2rem, 5vw, 3.8rem)', fontWeight: 800, color: '#ffffff', lineHeight: 1.12, margin: '0 0 20px', letterSpacing: '-1px' }}>
-          A sparkling clean home,<br />
+          Crystal-clear windows,<br />
           <span style={{ color: '#38bdf8' }}>anywhere in the UK</span>
         </h1>
 
         <p style={{ fontSize: 'clamp(1rem, 2vw, 1.2rem)', color: 'rgba(255,255,255,0.72)', lineHeight: 1.7, maxWidth: 560, margin: '0 auto 40px' }}>
-          Book professional, background-checked cleaners in minutes. Flexible scheduling, secure online payment, and a feedback process that keeps every clean to the highest standard.
+          Book professional, background-checked window cleaners in minutes. Flexible scheduling, secure online payment, and a feedback process that keeps every job to the highest standard.
         </p>
 
         <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -161,7 +161,7 @@ function Hero() {
         {/* Social proof strip */}
         <div style={{ marginTop: 60, display: 'flex', gap: 32, justifyContent: 'center', flexWrap: 'wrap' }}>
           {[
-            ['5,000+', 'Cleaners nationwide'],
+            ['3,000+', 'Window cleaners nationwide'],
             ['98%', 'Satisfaction rate'],
             ['100%', 'DBS checked'],
             ['24/7', 'Online booking'],
@@ -182,25 +182,25 @@ const FEATURES = [
   {
     icon: '📅',
     title: 'Online Scheduling',
-    desc: 'Book a one-off clean or set up a recurring schedule entirely online. Choose your date, time, and service — no phone calls, no waiting.',
+    desc: 'Book a one-off window clean or set up a regular round entirely online. Choose your date, frequency, and service type — no phone calls, no waiting.',
     highlight: 'Available 24/7',
   },
   {
     icon: '💳',
     title: 'Convenient Payments',
-    desc: 'Pay securely by card through Stripe. Receive a digital receipt instantly. No cash handling, no invoices to chase — everything is automatic.',
+    desc: 'Pay securely by card through Stripe. Receive a digital receipt instantly. No cash on the doorstep, no invoices to chase — everything is handled automatically.',
     highlight: 'Powered by Stripe',
   },
   {
     icon: '🛡️',
     title: 'Background-Checked Cleaners',
-    desc: 'Every Super Sparkles cleaner is fully DBS checked, identity verified, and insured before their first job. You always know who is in your home.',
+    desc: 'Every Super Sparkles window cleaner is fully DBS checked, identity verified, and insured before their first job. You always know who is attending your property.',
     highlight: 'DBS checked & insured',
   },
   {
     icon: '⭐',
     title: 'Easy Feedback',
-    desc: 'Rate your clean and leave notes straight after each visit. Our quality team reviews every low score within 24 hours and makes it right.',
+    desc: 'Rate your window clean and leave notes straight after each visit. Our quality team reviews every low score within 24 hours and makes it right.',
     highlight: 'Quality guaranteed',
   },
 ]
@@ -214,10 +214,10 @@ function Features() {
             Why Super Sparkles
           </div>
           <h2 style={{ fontSize: 'clamp(1.7rem, 3vw, 2.4rem)', fontWeight: 800, color: '#0c1a2e', margin: '0 0 12px', letterSpacing: '-0.5px' }}>
-            Cleaning made effortless
+            Window cleaning made effortless
           </h2>
           <p style={{ color: '#64748b', fontSize: '1.05rem', maxWidth: 520, margin: '0 auto' }}>
-            From booking to billing, everything is handled online so you can focus on enjoying a spotless home.
+            From booking to billing, everything is handled online so you can focus on enjoying streak-free windows.
           </p>
         </div>
 
@@ -247,17 +247,17 @@ const STEPS = [
   {
     n: '01',
     title: 'Book online in minutes',
-    desc: 'Choose your service type, property size, preferred date and time. Create a free account and confirm your booking — no deposit required.',
+    desc: 'Choose your service (residential, commercial, conservatory), property size, and preferred date. Create a free account and confirm — no deposit required.',
   },
   {
     n: '02',
-    title: 'A vetted cleaner arrives',
-    desc: 'We match you with a background-checked, rated cleaner local to you. You\'ll see their profile and reviews before they arrive.',
+    title: 'A vetted window cleaner arrives',
+    desc: 'We match you with a background-checked, rated window cleaner local to you. You\'ll see their profile and reviews before they arrive.',
   },
   {
     n: '03',
     title: 'Pay securely & leave feedback',
-    desc: 'Payment is taken automatically after your clean. Rate your cleaner and leave notes — your feedback shapes every future visit.',
+    desc: 'Payment is taken automatically after the job. Rate your window cleaner and leave notes — your feedback shapes every future visit.',
   },
 ]
 
@@ -273,7 +273,7 @@ function HowItWorks() {
             Ready in three steps
           </h2>
           <p style={{ color: '#64748b', fontSize: '1.05rem', maxWidth: 480, margin: '0 auto' }}>
-            No phone calls. No cash. No hassle. Just book, relax, and come home to clean.
+            No phone calls. No cash on the doorstep. No hassle. Just book, relax, and enjoy the view.
           </p>
         </div>
 
@@ -305,7 +305,7 @@ function HowItWorks() {
         <div style={{ textAlign: 'center', marginTop: 40 }}>
           <a href={`${APP_URL}/customer`}
             style={{ padding: '14px 36px', borderRadius: 10, background: '#0284c7', color: '#fff', fontWeight: 700, fontSize: '1rem', textDecoration: 'none', display: 'inline-block' }}>
-            Book your first clean →
+            Book your first window clean →
           </a>
         </div>
       </div>
@@ -315,11 +315,11 @@ function HowItWorks() {
 
 // ── Why Us (trust signals) ────────────────────────────────────────────────────
 const TRUST = [
-  { icon: '🇬🇧', title: 'Nationwide coverage', desc: 'We operate across England, Scotland, and Wales. From London to Edinburgh, Super Sparkles is available wherever you need us.' },
-  { icon: '🔒', title: 'Fully insured', desc: 'Every booking is covered by our comprehensive public liability insurance, giving you complete peace of mind.' },
-  { icon: '🌱', title: 'Eco-friendly products', desc: 'Our cleaners use non-toxic, biodegradable cleaning products that are safe for your family, pets, and the environment.' },
-  { icon: '🔄', title: 'Flexible recurring plans', desc: 'Save money with weekly, fortnightly, or monthly cleans. Pause or cancel any time — no contracts, no hidden fees.' },
-  { icon: '👤', title: 'Same cleaner every time', desc: 'Request your favourite cleaner for all future visits. Consistency means a better clean every single time.' },
+  { icon: '🇬🇧', title: 'Nationwide coverage', desc: 'We operate across England, Scotland, and Wales. From London to Edinburgh, Super Sparkles window cleaners are available wherever you are.' },
+  { icon: '🔒', title: 'Fully insured', desc: 'Every booking is covered by our comprehensive public liability insurance. Damage to glass, frames, or property is always fully protected.' },
+  { icon: '💧', title: 'Pure water technology', desc: 'Our window cleaners use purified water-fed pole systems that leave zero residue, drying streak-free with no chemicals needed.' },
+  { icon: '🔄', title: 'Flexible recurring rounds', desc: 'Save money with weekly, fortnightly, or monthly cleans. Pause or cancel any time — no contracts, no hidden fees.' },
+  { icon: '👤', title: 'Same cleaner every time', desc: 'Request your preferred window cleaner for all future visits. They\'ll know your property, your preferences, and your schedule.' },
   { icon: '💬', title: 'Real human support', desc: 'Got a question? Our customer team responds in under 2 hours by chat or email, every day of the week.' },
 ]
 
@@ -335,7 +335,7 @@ function WhyUs() {
             The Super Sparkles standard
           </h2>
           <p style={{ color: '#64748b', fontSize: '1.05rem', maxWidth: 500, margin: '0 auto' }}>
-            We hold ourselves to a higher standard — so every visit is one you can trust.
+            We hold ourselves to a higher standard — so every window clean is one you can trust.
           </p>
         </div>
 
@@ -371,7 +371,7 @@ function PortalCTA() {
           Manage everything in one place
         </h2>
         <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: '1.05rem', maxWidth: 540, margin: '0 auto 44px', lineHeight: 1.7 }}>
-          Whether you're booking a clean or managing your schedule as a cleaner, our platform puts everything at your fingertips.
+          Whether you're booking a window clean or managing your round as a cleaner, our platform puts everything at your fingertips.
         </p>
 
         <div style={{ display: 'flex', gap: 20, justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -387,7 +387,7 @@ function PortalCTA() {
               <div style={{ fontSize: '2rem', marginBottom: 14 }}>🏠</div>
               <div style={{ fontWeight: 800, fontSize: '1.1rem', color: '#fff', marginBottom: 8 }}>Customer Login</div>
               <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.85rem', lineHeight: 1.6, margin: '0 0 18px' }}>
-                Book a clean, manage your recurring schedule, review past visits, and pay securely — all in one dashboard.
+                Book a window clean, manage your recurring schedule, review past visits, and pay securely — all in one dashboard.
               </p>
               <div style={{ color: '#fff', fontWeight: 600, fontSize: '0.85rem' }}>Sign in or create account →</div>
             </div>
@@ -405,7 +405,7 @@ function PortalCTA() {
               <div style={{ fontSize: '2rem', marginBottom: 14 }}>✨</div>
               <div style={{ fontWeight: 800, fontSize: '1.1rem', color: '#fff', marginBottom: 8 }}>Cleaner Login</div>
               <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.85rem', lineHeight: 1.6, margin: '0 0 18px' }}>
-                View your upcoming jobs, accept new bookings, manage your availability, and track your earnings week by week.
+                View your upcoming rounds, accept new jobs, manage your availability, and track your earnings week by week.
               </p>
               <div style={{ color: 'rgba(255,255,255,0.7)', fontWeight: 600, fontSize: '0.85rem' }}>Access your schedule →</div>
             </div>
@@ -418,9 +418,9 @@ function PortalCTA() {
 
 // ── Testimonials ─────────────────────────────────────────────────────────────
 const TESTIMONIALS = [
-  { quote: "Booked online Sunday night, cleaner arrived Monday morning. Absolutely spotless — better than I could have done myself. Will definitely be booking again.", name: 'Sarah M.', location: 'Manchester' },
-  { quote: "Knowing my cleaner has been DBS checked makes such a difference. The whole process — booking, payment, feedback — was seamless from start to finish.", name: 'James T.', location: 'London' },
-  { quote: "I've tried other cleaning services but Super Sparkles is on another level. Same cleaner every fortnight, she knows exactly how I like things done.", name: 'Lisa K.', location: 'Edinburgh' },
+  { quote: "Booked online Sunday night, window cleaner arrived Monday morning. Absolutely streak-free — the frames and sills were spotless too. Will definitely be booking regularly.", name: 'Sarah M.', location: 'Manchester' },
+  { quote: "Knowing my window cleaner has been DBS checked makes such a difference. The whole process — booking, payment, feedback — was seamless from start to finish.", name: 'James T.', location: 'London' },
+  { quote: "I've tried other window cleaning services but Super Sparkles is on another level. Same cleaner every fortnight, he knows my property inside out.", name: 'Lisa K.', location: 'Edinburgh' },
 ]
 
 function Testimonials() {
@@ -466,14 +466,14 @@ function Footer() {
           <div>
             <LogoWordmark light />
             <p style={{ color: 'rgba(255,255,255,0.45)', fontSize: '0.82rem', lineHeight: 1.7, marginTop: 14, maxWidth: 220 }}>
-              Professional home cleaning services across the United Kingdom.
+              Professional window cleaning services across the United Kingdom.
             </p>
           </div>
 
           {/* Services */}
           <div>
             <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.72rem', fontWeight: 600, letterSpacing: '2px', textTransform: 'uppercase', marginBottom: 14 }}>Services</div>
-            {['Regular Cleaning', 'Deep Cleaning', 'End of Tenancy', 'Office Cleaning', 'After-Build Clean'].map(s => (
+            {['Residential Windows', 'Commercial Windows', 'Conservatory Cleaning', 'Fascias & Soffits', 'Gutter Clearing'].map(s => (
               <div key={s} style={{ marginBottom: 8 }}>
                 <a href="#" style={{ color: 'rgba(255,255,255,0.55)', fontSize: '0.85rem', textDecoration: 'none' }}
                   onMouseOver={e => e.target.style.color = '#38bdf8'}
